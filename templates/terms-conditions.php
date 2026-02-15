@@ -1,0 +1,96 @@
+<?php
+
+/**
+ * Template Name: Terms & Conditions
+ * @package helium-biax
+ */
+
+// Prevent direct access
+if (!defined('ABSPATH')) {
+    exit;
+}
+
+get_header();
+?>
+
+<!-- =============== Terms & Conditions ==================== -->
+<section class="pt-32 pb-14 sm:pt-36 md:pt-42 md:pb-16 lg:pb-[88px] xl:pt-[180px] xl:pb-[200px]">
+    <div class="main-container">
+        <div data-ns-animate data-delay="0.3" class="space-y-3">
+            <h2>Terms & conditions</h2>
+        </div>
+
+        <article class="terms-conditions-body">
+            <div data-ns-animate data-delay="0.3" class="space-y-3">
+                <h3 class="text-heading-4">Terms & Conditions</h3>
+                <p>
+                    This site, <span class="text-secondary dark:text-accent">binaryaxis.org</span>, is owned and operated by Binary Axis. Please read these Terms and Conditions carefully. Your use of this website indicates that you accept and agree to be bound by these terms.
+                </p>
+            </div>
+            <div data-ns-animate data-delay="0.4" class="space-y-6">
+                <h3>1. Limitation of liability</h3>
+                <p>
+                    Under no circumstances shall Binary Axis be liable for any direct, indirect, incidental, or consequential damages — including loss of data or profits — arising out of the use or inability to use our consultancy materials, even if we have been advised of the possibility of such damages.
+                </p>
+            </div>
+            <div data-ns-animate data-delay="0.5" class="space-y-6">
+                <h3>2. License</h3>
+                <p>
+                    Binary Axis services, strategic frameworks, and digital tools are provided under a commercial license agreement. Reselling or redistributing our proprietary materials without written consent is strictly prohibited.
+                </p>
+            </div>
+            <div data-ns-animate data-delay="0.6" class="space-y-6">
+                <h3>3. Ownership and liability</h3>
+                <p>
+                    All Binary Axis products, strategic solutions, and materials remain the intellectual property of Binary Axis. Our services are provided “as is” without warranty of any kind. User accounts and project licenses are
+                    <strong class="!text-secondary dark:!text-accent font-bold"> non-transferable</strong>.
+                </p>
+            </div>
+
+            <div data-ns-animate data-delay="0.5" class="space-y-6">
+                <h3>4. Warranty</h3>
+                <p>
+                    Binary Axis services are provided without expressed or implied warranty. We do not guarantee full compatibility with all external systems or third-party platforms.
+                </p>
+            </div>
+            <div data-ns-animate data-delay="0.6" class="space-y-6">
+                <h3>5. Account termination and suspension</h3>
+                <p>
+                    Binary Axis reserves the right to suspend or terminate any user account without prior notice for:
+                </p>
+                <ul>
+                    <li>Abusive or defamatory behavior towards staff.</li>
+                    <li>Unauthorized resale of our strategic materials.</li>
+                    <li>Involvement in illegal activities or security threats.</li>
+                </ul>
+            </div>
+            <div data-ns-animate data-delay="0.3" class="space-y-6">
+                <h3>6. Privacy policy</h3>
+                <p>
+                    We value your privacy. Binary Axis does not sell or rent your personal information. Your data is used solely for order processing, account management, and legal compliance.
+                </p>
+                <ul>
+                    <li>Order processing.</li>
+                    <li>Account management.</li>
+                    <li>Billing disputes.</li>
+                    <li>Fraudulent activities.</li>
+                    <li>Legal compliance.</li>
+                </ul>
+
+                <p>
+                    By using our services, you consent to the collection and use of your data as outlined in our Privacy Policy.
+                </p>
+            </div>
+
+            <div data-ns-animate data-delay="0.4">
+                <a
+                    href="<?php echo get_permalink(3); ?>"
+                    class="section-button btn btn-xl dark:btn-accent hover:btn-primary btn-secondary">
+                    <span>Read our detailed privacy policy</span>
+                </a>
+            </div>
+        </article>
+    </div>
+</section>
+
+<?php get_footer(); ?>

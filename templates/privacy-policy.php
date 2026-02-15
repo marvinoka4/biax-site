@@ -1,0 +1,198 @@
+<?php
+
+/**
+ * Template Name: Privacy Policy
+ * @package helium-biax
+ */
+
+// Prevent direct access
+if (!defined('ABSPATH')) {
+    exit;
+}
+
+get_header();
+?>
+
+<!-- ========================= Privacy section ===========================-->
+<section class="pt-32 pb-[100px] sm:pt-36 md:pt-42 xl:pt-[180px]">
+    <div class="main-container">
+        <div class="privacy-policy space-y-[75px]">
+            <div class="space-y-2">
+                <h2 data-ns-animate data-delay="0.1">Privacy Policy</h2>
+                <p data-ns-animate data-delay="0.2">Last Updated: <span class="text-secondary dark:text-accent">February 2026</span>.
+                </p>
+            </div>
+            <div data-ns-animate data-delay="0.3" class="space-y-2">
+                <h4>Data protection guidelines</h4>
+                <p>
+                    <span class="text-secondary dark:text-accent">Binary Axis</span> is a premier consultancy firm. We specialize in digital transformation, strategy, and execution, empowering organizations worldwide to achieve measurable business outcomes. We are committed to protecting your privacy and handling your information transparently.
+                    (the "Site").
+                </p>
+            </div>
+            <div data-ns-animate data-delay="0.4" class="space-y-6">
+                <div class="space-y-2">
+                    <h4>Binary Axis Privacy Policy</h4>
+                    <p>
+                        This Privacy Policy describes how your personal information is collected, used, and shared when you visit, subscribe, or engage our services via
+                        <a href="https://binaryaxis.org" class="text-secondary dark:text-accent">
+                            https://binaryaxis.org
+                        </a>(the "Site").
+                    </p>
+                </div>
+            </div>
+
+            <div data-ns-animate data-delay="0.4" class="space-y-6">
+                <div class="space-y-2">
+                    <h4>Personal information we collect</h4>
+                    <p>
+                        When you visit the Site, we automatically collect certain information about your device, including information about your web browser, IP address, time zone, and cookies installed on your device. Additionally, as you browse the Site, we collect information about the individual pages you view, what search terms referred you to the Site, and how you interact with the Site. We call this automatically-collected information
+                        <span class="text-secondary dark:text-accent">"Device Information."</span>
+                    </p>
+                </div>
+
+                <ul
+                    data-ns-animate
+                    data-delay="0.5"
+                    class="text-tagline-1 text-secondary/60 dark:text-accent/60 list-inside space-y-3 font-normal">
+                    <li>
+                        <strong class="text-secondary dark:text-accent font-normal">Cookies – </strong>
+                        Data files placed on your device, often including an anonymous unique identifier. <br />
+                        ( Learn more about cookies and how to disable them:
+                        <a href="http://www.allaboutcookies.org" class="text-secondary">
+                            http://www.allaboutcookies.org
+                        </a>
+                        )
+                    </li>
+                    <li>
+                        <strong class="text-secondary dark:text-accent font-normal"> Log Files – </strong>
+                        Track actions on the Site and collect IP address, browser type, ISP, referring/exit
+                        pages, and timestamps.
+                    </li>
+                    <li>
+                        <strong class="text-secondary dark:text-accent font-normal">
+                            Web Beacons, Tags, and Pixels –
+                        </strong>
+                        Electronic files to monitor site usage and interaction.
+                    </li>
+                    <li>
+                        <strong class="text-secondary dark:text-accent font-normal">
+                            Google Analytics and Pixels –
+                        </strong>
+                        Collect traffic-related information and interaction behavior.
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <div class="grid grid-cols-12 gap-y-[100px] lg:gap-[100px]">
+                    <div class="col-span-12 lg:col-span-6">
+                        <div data-ns-animate data-delay="0.6" class="mb-[70px] text-left">
+                            <p class="max-w-[550px]">
+                                When you make or attempt to purchase through the Site, we collect information such
+                                as your name, email address, billing address, shipping address, payment details, and
+                                any other relevant data necessary to process your order.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div data-ns-animate data-delay="0.5" class="space-y-6">
+                <div class="space-y-2">
+                    <h4>How we use your personal information</h4>
+                    <p>We use the collected Order Information to:</p>
+                </div>
+                <ul
+                    class="text-tagline-1 text-secondary/60 dark:text-accent/60 list-inside space-y-3 font-normal">
+                    <li>Process your orders, payments, and generate invoices.</li>
+                    <li>Communicate with you regarding strategy and execution.</li>
+                    <li>Screen for potential fraud or risks.</li>
+                    <li>Provide you with information or promotions related to our services, when aligned with your preferences.</li>
+                    <li>Improve and optimize the Site experience and analyze customer interactions.</li>
+                </ul>
+                <div class="space-y-2">
+                    <p class="text-secondary dark:text-accent">We use the collected Order Information to:</p>
+
+                    <ul
+                        class="text-tagline-1 text-secondary/60 dark:text-accent/60 list-inside space-y-3 font-normal">
+                        <li>Improve and optimize the Site experience</li>
+                        <li>Analyze customer interactions for performance tracking</li>
+                        <li>Screen for potential risk and fraud</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div data-ns-animate data-delay="0.6" class="space-y-6">
+                <div class="space-y-2">
+                    <h4>Sharing your personal information</h4>
+                    <p>
+                        We share your Personal Information with trusted third-party service providers to help us
+                        operate effectively:
+                    </p>
+                </div>
+                <ul
+                    class="text-tagline-1 text-secondary/60 dark:text-accent/60 list-inside space-y-3 font-normal">
+                    <li>
+                        <strong class="text-secondary dark:text-accent font-normal">
+                            Google Analytics:
+                        </strong>
+                        To understand customer interactions and optimize experience.
+                    </li>
+                    <li>
+                        <strong class="text-secondary dark:text-accent font-normal">
+                            Payment Processors:
+                        </strong>
+                        (e.g., Stripe, PayPal) to handle secure billing.
+                    </li>
+                </ul>
+            </div>
+
+            <div data-ns-animate data-delay="0.7" class="space-y-6">
+                <div class="space-y-2">
+                    <h4>Do not track</h4>
+                    <p>
+                        Please note, we do not alter our Site’s data collection practices when we detect a "Do
+                        Not Track" signal from your browser.
+                    </p>
+                </div>
+            </div>
+
+            <div data-ns-animate data-delay="0.8" class="space-y-6">
+                <div class="space-y-2">
+                    <h4>Your rights</h4>
+                    <p>If you are a resident of the European Economic Area (EEA), you have the right to access, update, or delete your personal information. If you wish to exercise these rights, please contact us at <a href="mailto:info@binaryaxis.org" class="text-secondary dark:text-accent">
+                            info@binaryaxis.org
+                        </a></p>
+                </div>
+            </div>
+
+            <div data-ns-animate data-delay="0.9" class="space-y-6">
+                <div class="space-y-2">
+                    <h4>Data retention</h4>
+                    <p>
+                        We will retain your information for our records unless and until you ask us to delete this information.
+                    </p>
+                </div>
+            </div>
+
+            <div data-ns-animate data-delay="1" class="space-y-6">
+                <div class="space-y-2">
+                    <h4>Minors</h4>
+                    <p>Our Site is not intended for individuals under the age of 18.</p>
+                </div>
+            </div>
+
+            <div data-ns-animate data-delay="1.1" class="space-y-6">
+                <div class="space-y-2">
+                    <h4>Changes</h4>
+                    <p>
+                        We may update this Privacy Policy periodically to reflect changes to our practices or for other operational, legal, or regulatory reasons.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<?php get_footer(); ?>

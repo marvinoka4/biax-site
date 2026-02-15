@@ -1,0 +1,257 @@
+<?php
+
+/**
+ * Template Name: Cookie Policy
+ * @package helium-biax
+ */
+
+// Prevent direct access
+if (!defined('ABSPATH')) {
+    exit;
+}
+
+get_header();
+?>
+
+<!-- ========================= GDPR Details ===========================-->
+<section class="pt-32 pb-[200px] sm:pt-36 md:pt-42 xl:pt-[180px]">
+    <div class="main-container">
+        <div class="space-y-[70px]">
+            <!-- gdrp  -->
+            <div data-ns-animate data-delay="0.3" class="space-y-3">
+                <h2>Cookie Policy</h2>
+            </div>
+            <div data-ns-animate data-delay="0.5" class="space-y-3">
+                <h3 class="text-heading-4">Binary Axis and the General Data Protection Regulation (GDPR)</h3>
+                <p>
+                    The General Data Protection Regulation (GDPR) is a privacy regulation enacted by the European Union (EU) to strengthen the protection of individuals' data. Binary Axis is fully committed to respecting your privacy and ensuring your data is handled transparently and securely.
+                </p>
+            </div>
+            <!-- purpose  -->
+            <div data-ns-animate data-delay="0.4" class="space-y-6">
+                <div class="space-y-3">
+                    <h3 class="text-heading-4">Purpose of this document</h3>
+                    <p>
+                        This page provides a clear overview of:
+                    </p>
+                </div>
+                <ul class="space-y-3">
+                    <li class="flex items-center justify-start gap-2">
+                        <span class="bg-secondary dark:bg-accent inline-block size-1.5 rounded-full"></span><span class="text-tagline-1 text-secondary/60 dark:text-accent/60"> Who we are as a consultancy firm. </span>
+                    </li>
+                    <li class="flex items-center justify-start gap-2">
+                        <span class="bg-secondary dark:bg-accent inline-block size-1.5 rounded-full"></span><span class="text-tagline-1 text-secondary/60 dark:text-accent/60">What types of data we collect and why.
+                        </span>
+                    </li>
+                    <li class="flex items-center justify-start gap-2">
+                        <span class="bg-secondary dark:bg-accent inline-block size-1.5 rounded-full"></span><span class="text-tagline-1 text-secondary/60 dark:text-accent/60">
+                            Third-party services we use.</span>
+                    </li>
+                    <li class="flex items-center justify-start gap-2">
+                        <span class="bg-secondary dark:bg-accent inline-block size-1.5 rounded-full"></span><span class="text-tagline-1 text-secondary/60 dark:text-accent/60">Your rights over your data and how to manage it.
+                        </span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- what is gdpr  -->
+            <div data-ns-animate data-delay="0.5" class="space-y-3">
+                <h3 class="text-heading-4">What is GDPR?</h3>
+                <p>
+                    GDPR gives you greater control over your personal information. Service providers like Binary Axis must be transparent about what data they collect and how it is used.
+                    <br />
+                    <br />
+                    Although GDPR is an EU regulation, it affects any business that processes the data of EU residents.
+                </p>
+            </div>
+
+
+            <div data-ns-animate data-delay="0.4" class="space-y-6">
+                <div class="space-y-3">
+                    <h3 class="text-heading-4">Data we collect</h3>
+                </div>
+                <ul class="space-y-3">
+                    <li class="flex items-center justify-start gap-2">
+                        <span class="bg-secondary dark:bg-accent inline-block size-1.5 rounded-full"></span><span class="text-tagline-1 text-secondary/60 dark:text-accent/60">
+                            <strong class="text-secondary dark:text-accent font-normal">
+                                Account & Contact Information:
+                            </strong>Your name, email, and professional details during registration or inquiry. </span>
+                    </li>
+                    <li class="flex items-center justify-start gap-2">
+                        <span class="bg-secondary dark:bg-accent inline-block size-1.5 rounded-full"></span><span class="text-tagline-1 text-secondary/60 dark:text-accent/60">
+                            <strong class="text-secondary dark:text-accent font-normal">
+                                Service Data:
+                            </strong>IP address, payment method, and billing address.
+                        </span>
+                    </li>
+                    <li class="flex items-center justify-start gap-2">
+                        <span class="bg-secondary dark:bg-accent inline-block size-1.5 rounded-full"></span><span class="text-tagline-1 text-secondary/60 dark:text-accent/60">
+                            <strong class="text-secondary dark:text-accent font-normal">
+                                Browsing Behavior:
+                            </strong>
+                            Pages visited, time spent on site, and interaction with our strategy content.</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- How Binary Axis Implements GDPR -->
+            <div data-ns-animate data-delay="0.3" class="space-y-3">
+                <h3 class="text-heading-4">How Binary Axis Implements GDPR</h3>
+                <p>
+                    Binary Axis has always prioritized user data privacy, even before GDPR came into effect. Our
+                    core practices naturally align with GDPR principles, and we've made further improvements
+                    to ensure full compliance.
+                </p>
+
+                <div class="space-y-3">
+                    <h4 class="text-tagline-1 text-secondary dark:text-accent">We have updated our:</h4>
+                    <ul class="space-y-1">
+                        <li class="flex items-center justify-start gap-2">
+                            <span class="bg-secondary dark:bg-accent inline-block size-1.5 rounded-full"></span><span class="text-tagline-1 text-secondary/60 dark:text-accent/60">
+                                Terms and conditions
+                            </span>
+                        </li>
+                        <li class="flex items-center justify-start gap-2">
+                            <span class="bg-secondary dark:bg-accent inline-block size-1.5 rounded-full"></span><span class="text-tagline-1 text-secondary/60 dark:text-accent/60">
+                                Privacy policy
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Data we collect -->
+            <div data-ns-animate data-delay="0.5" class="space-y-6">
+                <h3 class="text-heading-4">Data we collect</h3>
+                <ul class="space-y-3">
+                    <li class="flex items-center justify-start gap-2">
+                        <span class="bg-secondary dark:bg-accent inline-block size-1.5 rounded-full"></span>
+                        <p>
+                            <span class="text-secondary dark:text-accent">Account Information: </span>
+                            Your name, email address, phone number, and billing address during account
+                            registration.
+                        </p>
+                    </li>
+                    <li class="flex items-center justify-start gap-2">
+                        <span class="bg-secondary dark:bg-accent inline-block size-1.5 rounded-full"></span>
+                        <p>
+                            <span class="text-secondary dark:text-accent">Order Data: IP address: </span>web
+                            browser information, payment email, billing address, payment method (e.g., PayPal or
+                            credit card details).
+                        </p>
+                    </li>
+
+                    <li class="flex items-center justify-start gap-2">
+                        <span class="bg-secondary dark:bg-accent inline-block size-1.5 rounded-full"></span>
+                        <p>
+                            <span class="text-secondary dark:text-accent">Browsing Behavior: </span>Pages you
+                            visit, products you view, time spent on the site, and interaction with our marketing
+                            campaigns.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Why we collect your data -->
+            <div data-ns-animate data-delay="0.5" class="space-y-6">
+                <h3 class="text-heading-4" id="data-purpose">Why we collect your data</h3>
+                <ul class="space-y-3">
+                    <li class="flex items-center justify-start gap-2">
+                        <span class="bg-secondary dark:bg-accent inline-block size-1.5 rounded-full"></span><span class="text-tagline-1 text-secondary/60 dark:text-accent/60">
+                            To manage your Binary Axis consultancy account.
+                        </span>
+                    </li>
+                    <li class="flex items-center justify-start gap-2">
+                        <span class="bg-secondary dark:bg-accent inline-block size-1.5 rounded-full"></span><span class="text-tagline-1 text-secondary/60 dark:text-accent/60">
+                            To process service orders and prevent fraudulent transactions.
+                        </span>
+                    </li>
+                    <li class="flex items-center justify-start gap-2">
+                        <span class="bg-secondary dark:bg-accent inline-block size-1.5 rounded-full"></span><span class="text-tagline-1 text-secondary/60 dark:text-accent/60">
+                            To analyze site traffic and optimize our digital strategy offerings.
+                        </span>
+                    </li>
+                    <li class="flex items-center justify-start gap-2">
+                        <span class="bg-secondary dark:bg-accent inline-block size-1.5 rounded-full"></span><span class="text-tagline-1 text-secondary/60 dark:text-accent/60">
+                            To analyze site traffic and optimize marketing efforts
+                        </span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Third-Party services we use -->
+            <div data-ns-animate data-delay="0.3" class="space-y-6">
+                <h3 class="text-heading-4" id="third-party">Third-Party services we use</h3>
+                <ul class="space-y-3">
+                    <li class="flex items-center justify-start gap-2">
+                        <span class="bg-secondary dark:bg-accent inline-block size-1.5 rounded-full"></span>
+                        <p>
+                            <span class="text-secondary dark:text-accent">Stripe/PayPal: </span>For secure consultancy fee transactions.
+                        </p>
+                    </li>
+                    <li class="flex items-center justify-start gap-2">
+                        <span class="bg-secondary dark:bg-accent inline-block size-1.5 rounded-full"></span>
+                        <p>
+                            <span class="text-secondary dark:text-accent">Google Analytics: </span>For behavior analysis and site optimization.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Your data rights -->
+            <div data-ns-animate data-delay="0.4" class="space-y-6">
+                <h3 class="text-heading-4" id="data-rights">Your data rights</h3>
+                <ul class="space-y-3">
+                    <li class="flex items-center justify-start gap-2">
+                        <span class="bg-secondary dark:bg-accent inline-block size-1.5 rounded-full"></span>
+                        <p>
+                            <span class="text-secondary dark:text-accent">Access</span> your personal information
+                        </p>
+                    </li>
+                    <li class="flex items-center justify-start gap-2">
+                        <span class="bg-secondary dark:bg-accent inline-block size-1.5 rounded-full"></span>
+                        <p>
+                            <span class="text-secondary dark:text-accent">Modify</span> your account information
+                        </p>
+                    </li>
+                    <li class="flex items-center justify-start gap-2">
+                        <span class="bg-secondary dark:bg-accent inline-block size-1.5 rounded-full"></span>
+                        <p>
+                            <span class="text-secondary dark:text-accent">Request</span> the deletion of your data
+                        </p>
+                    </li>
+                    <li class="flex items-center justify-start gap-2">
+                        <span class="bg-secondary dark:bg-accent inline-block size-1.5 rounded-full"></span>
+                        <p>
+                            <span class="text-secondary dark:text-accent">Withdraw</span>
+                            consent for processing personal information
+                        </p>
+                    </li>
+                    <li class="flex items-center justify-start gap-2">
+                        <span class="bg-secondary dark:bg-accent inline-block size-1.5 rounded-full"></span>
+                        <p>
+                            <span class="text-secondary dark:text-accent">Download</span> a copy of your stored
+                            data
+                        </p>
+                    </li>
+                </ul>
+            </div>
+
+            <!--How to manage or delete your data-->
+            <div data-ns-animate data-delay="0.5" class="space-y-6">
+                <h3 class="text-heading-4" id="data-management">How to manage or delete your data</h3>
+                <ul class="space-y-3">
+                    <li class="flex items-center justify-start gap-2">
+                        <span class="bg-secondary dark:bg-accent inline-block size-1.5 rounded-full"></span><span class="text-tagline-1 text-secondary/60 dark:text-accent/60">
+                            To request a complete data deletion or data export, simply send an email to:
+                            <a href="mailto:info@binaryaxis.org" class="text-secondary dark:text-accent">
+                                info@binaryaxis.org
+                            </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<?php get_footer(); ?>
