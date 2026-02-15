@@ -23,68 +23,12 @@
                 </figure>
             </div>
             <div class="col-span-12 lg:col-span-6">
-                <form
-                    data-ns-animate
+                <div data-ns-animate
                     data-delay="0.5"
                     class="dark:bg-background-8 rounded-[20px] bg-white p-6 lg:p-[42px]">
-                    <fieldset class="mb-8 space-y-2">
-                        <label
-                            for="name"
-                            class="text-tagline-1 text-secondary dark:text-accent block font-medium">
-                            Your name
-                        </label>
-                        <input
-                            type="text"
-                            name="name"
-                            id="name"
-                            placeholder="Enter your name"
-                            class="border-stroke-3 bg-background-1 dark:border-stroke-7 dark:bg-background-6 placeholder:text-tagline-1 placeholder:text-secondary/60 dark:placeholder:text-accent/60 dark:text-accent shadow-1 block h-12 w-full rounded-full border px-[18px] py-3 font-normal placeholder:font-normal focus:ring-0 focus:ring-offset-0 focus:outline-none" />
-                    </fieldset>
-                    <fieldset class="mb-8 space-y-2">
-                        <label
-                            for="email"
-                            class="text-tagline-1 text-secondary dark:text-accent block font-medium">
-                            Email address
-                        </label>
-                        <input
-                            type="text"
-                            name="email"
-                            id="email"
-                            placeholder="Enter your email address"
-                            class="border-stroke-3 bg-background-1 dark:border-stroke-7 dark:bg-background-6 placeholder:text-tagline-1 dark:text-accent placeholder:text-secondary/60 dark:placeholder:text-accent/60 shadow-1 block h-12 w-full rounded-full border px-[18px] py-3 font-normal placeholder:font-normal focus:ring-0 focus:ring-offset-0 focus:outline-none" />
-                    </fieldset>
-                    <fieldset class="space-y-2">
-                        <label
-                            for="comment"
-                            class="text-tagline-1 text-secondary dark:text-accent block font-medium">
-                            Message
-                        </label>
-                        <textarea
-                            name="comment"
-                            id="comment"
-                            placeholder="Enter your message"
-                            class="border-stroke-3 bg-background-1 dark:border-stroke-7 dark:bg-background-6 placeholder:text-tagline-1 placeholder:text-secondary/60 dark:placeholder:text-accent/60 dark:text-accent shadow-1 block min-h-[115px] w-full rounded-xl border px-[18px] py-3 font-normal placeholder:font-normal focus:ring-0 focus:ring-offset-0 focus:outline-none"></textarea>
-                    </fieldset>
-                    <fieldset class="mt-4 mb-4 flex items-center gap-2">
-                        <label for="agree-terms" class="flex items-center gap-x-3">
-                            <input id="agree-terms" type="checkbox" class="peer sr-only" required />
-                            <span
-                                class="border-stroke-3 dark:border-stroke-7 after:bg-primary-500 peer-checked:border-primary-500 relative size-4 cursor-pointer rounded-full border after:absolute after:top-1/2 after:left-1/2 after:size-2.5 after:-translate-x-1/2 after:-translate-y-1/2 after:rounded-full after:opacity-0 peer-checked:after:opacity-100"></span>
-                        </label>
-                        <label
-                            for="agree-terms"
-                            class="text-tagline-3 text-secondary/60 dark:text-accent/60 cursor-pointer">
-                            I agree with the
-                            <a href="<?php echo get_permalink(48); ?>" class="text-primary-500 text-tagline-3 underline">terms and conditions</a>
-                        </label>
-                    </fieldset>
+                    <?php echo FrmFormsController::get_form_shortcode(array('id' => 1)); ?>
 
-                    <button
-                        type="submit"
-                        class="btn btn-md btn-secondary hover:btn-primary dark:btn-accent w-full first-letter:uppercase before:content-none">
-                        Submit
-                    </button>
-                </form>
+                </div>
             </div>
         </div>
     </div>

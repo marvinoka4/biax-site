@@ -7,7 +7,7 @@
 
   <meta name="title" content="Binary Axis - Turning Digital Complexity Into Measurable Business Value" />
   <meta name="description" content="Binary Axis delivers digital transformation through precision strategy and rapid execution. Drive measurable impact and predictable ROI for your business today." />
-  <meta name="keywords" content="SaaS templates, HTML templates, Tailwind CSS templates, startup templates, web application templates, responsive design, authentication pages, pricing pages, modern UI, Binary Axis, business templates, landing page templates, React templates" />
+  <meta name="keywords" content="Binary Axis, digital transformation consultancy, precision strategy, rapid execution, strategic tech advisory, business growth strategy, measurable business outcomes, data-driven digital strategy, enterprise tech consulting, digital product engineering, ROI-focused strategy, agile business implementation, scalable tech roadmaps, operational efficiency consulting" />
   <meta name="author" content="Binary Axis" />
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
   <meta name="googlebot" content="index, follow" />
@@ -38,7 +38,7 @@
   <meta name="twitter:site" content="@BinaryAxis" />
   <meta name="twitter:url" content="<?php echo esc_url(home_url('/')); ?>" />
   <meta name="twitter:title" content="Binary Axis - Turning Digital Complexity Into Measurable Business Value" />
-  <meta name="twitter:description" content="Binary Axis - the ultimate collection of 35+ premium HTML templates for SaaS businesses and startups." />
+  <meta name="twitter:description" content="Precision Strategy. Rapid Execution. Measurable Impact. Binary Axis partners with organizations to engineer growth and deliver clear business value." />
   <meta name="twitter:image" content="https://helium.marvinoka4.com/wp-content/uploads/2026/02/screenshot.png" />
 
   <meta name="theme-color" content="#000000" />
