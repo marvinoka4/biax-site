@@ -25,10 +25,8 @@
                 <div data-ns-animate
                     data-delay="0.5"
                     class="dark:bg-background-8 rounded-[20px] bg-white p-6 lg:p-[42px]">
-                    <?php echo FrmFormsController::get_form_shortcode(array('id' => 1)); ?>
-
                     <?php if (function_exists('gravity_form')) : ?>
-                        <div class="biax-gform border-stroke-7 mt-10 border-t pt-10">
+                        <div class="biax-gform">
                             <?php gravity_form(1, false, false, false, null, true); ?>
                         </div>
                     <?php endif; ?>
