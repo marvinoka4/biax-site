@@ -10,8 +10,7 @@
                             data-ns-animate
                             data-delay="0.3"
                             class="mx-auto max-w-[550px] text-center lg:mx-0 lg:text-left">
-                            Have a question, feedback, or feature request? We’d love to hear from you! Please fill
-                            out the form, and our support team will get back to you as soon as possible.
+                            Whether you have a specific initiative in mind or want to talk through where technology could make a difference in your organisation, send us a message and we'll get back to you.
                         </p>
                     </div>
                 </div>

@@ -14,8 +14,6 @@
   <meta name="bingbot" content="index, follow" />
 
   <meta name="language" content="English" />
-  <meta name="geo.region" content="US" />
-  <meta name="geo.placename" content="United States" />
 
   <link rel="canonical" href="<?php echo esc_url(home_url('/')); ?>" />
 

@@ -35,19 +35,14 @@ $uri = get_template_directory_uri();
                         <img src="<?php echo $uri; ?>/assets/images/shared/dark-logo.svg" alt="<?php bloginfo('name'); ?> Logo" />
                     </figure>
                     <div class="flex items-center gap-3">
-                        <a href="mailto:hello@binaryaxis.com" class="footer-social-link">
+                        <a href="mailto:info@binaryaxis.org" class="footer-social-link">
                             <span class="sr-only">Email</span>
                             <img class="size-6" src="<?php echo $uri; ?>/assets/images/icons/mail-white.svg" alt="Email" />
                         </a>
                         <div class="bg-stroke-1/20 h-6 w-px"></div>
-                        <a href="#" class="footer-social-link">
+                        <a href="https://www.linkedin.com/company/binary-axis" target="_blank" rel="noopener noreferrer" class="footer-social-link">
                             <span class="sr-only">LinkedIn</span>
                             <img class="size-6" src="<?php echo $uri; ?>/assets/images/icons/linkedin.svg" alt="LinkedIn" />
-                        </a>
-                        <div class="bg-stroke-1/20 h-6 w-px"></div>
-                        <a href="#" class="footer-social-link">
-                            <span class="sr-only">Whatsapp</span>
-                            <img class="size-6" src="<?php echo $uri; ?>/assets/images/icons/whatsapp-white.svg" alt="Whatsapp" />
                         </a>
                     </div>
                 </div>
