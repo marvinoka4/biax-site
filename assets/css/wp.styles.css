@@ -1,0 +1,205 @@
+/* ==========================================================================
+   Gravity Forms (Orbital theme) - matched to the Binary Axis dark UI
+   Scoped with #contact-us so it outranks the inline variables GF prints
+   on #gform_wrapper_{id}.
+   ========================================================================== */
+
+#contact-us .biax-gform .gform_wrapper.gform-theme {
+  /* Palette */
+  --gf-color-primary: #864ffe;
+  --gf-color-primary-rgb: 134, 79, 254;
+  --gf-color-primary-contrast: #ffffff;
+  --gf-color-primary-darker: #6e42d1;
+  --gf-color-primary-lighter: #a27dfe;
+  --gf-color-danger: #f04438;
+  --gf-color-out-ctrl-dark: #9aa4b2;
+  --gf-color-out-ctrl-dark-darker: #fcfcfc;
+
+  /* Typography */
+  --gf-font-family-base: var(--font-inter-tight);
+  --gf-font-family-primary: var(--font-inter-tight);
+  --gf-font-family-secondary: var(--font-inter-tight);
+  --gf-font-family-tertiary: var(--font-inter-tight);
+
+  /* Labels */
+  --gf-ctrl-label-color-primary: #ffffff;
+  --gf-ctrl-label-color-secondary: #ffffff;
+  --gf-ctrl-label-color-tertiary: #9aa4b2;
+  --gf-ctrl-label-color-quaternary: #9aa4b2;
+  --gf-ctrl-label-color-req: #ffffff;
+  --gf-ctrl-label-font-size-primary: 15px;
+  --gf-ctrl-label-font-weight-primary: 400;
+  --gf-ctrl-desc-color: #9aa4b2;
+
+  /* Inputs */
+  --gf-ctrl-size: 44px;
+  --gf-ctrl-font-size: 15px;
+  --gf-ctrl-padding-x: 16px;
+  --gf-ctrl-radius: 3.40282e38px;
+  --gf-ctrl-textarea-radius: 20px;
+  --gf-ctrl-textarea-height: 160px;
+  --gf-ctrl-textarea-padding-y: 12px;
+  --gf-ctrl-bg-color: #0f1217;
+  --gf-ctrl-bg-color-hover: #0f1217;
+  --gf-ctrl-bg-color-focus: #0f1217;
+  --gf-ctrl-bg-color-error: #0f1217;
+  --gf-ctrl-border-color: #2a333e;
+  --gf-ctrl-border-color-hover: #3d4855;
+  --gf-ctrl-border-color-focus: #fcfcfc;
+  --gf-ctrl-border-color-error: #f04438;
+  --gf-ctrl-color: #fcfcfc;
+  --gf-ctrl-color-hover: #fcfcfc;
+  --gf-ctrl-color-focus: #fcfcfc;
+  --gf-ctrl-color-error: #fcfcfc;
+  --gf-ctrl-placeholder-color: #667085;
+  --gf-ctrl-shadow: none;
+  --gf-ctrl-outline-color-focus: rgba(255, 255, 255, 0.25);
+  --gf-ctrl-accent-color: #864ffe;
+  --gf-ctrl-choice-check-color: #ffffff;
+
+  /* Submit button */
+  --gf-ctrl-btn-font-size: 15px;
+  --gf-ctrl-btn-font-weight: 400;
+  --gf-ctrl-btn-radius: 3.40282e38px;
+  --gf-ctrl-btn-shadow: none;
+  --gf-ctrl-btn-shadow-hover: none;
+  --gf-ctrl-btn-shadow-focus: none;
+  --gf-ctrl-btn-bg-color-primary: #ffffff;
+  --gf-ctrl-btn-border-color-primary: #ffffff;
+  --gf-ctrl-btn-color-primary: #000000;
+  --gf-ctrl-btn-bg-color-hover-primary: #6e42d1;
+  --gf-ctrl-btn-border-color-hover-primary: #6e42d1;
+  --gf-ctrl-btn-color-hover-primary: #ffffff;
+  --gf-ctrl-btn-bg-color-focus-primary: #6e42d1;
+  --gf-ctrl-btn-border-color-focus-primary: #6e42d1;
+  --gf-ctrl-btn-color-focus-primary: #ffffff;
+
+  /* Validation summary */
+  --gf-form-validation-bg-color: rgba(240, 68, 56, 0.08);
+  --gf-form-validation-border-color: #f04438;
+  --gf-form-validation-heading-color: #fda29b;
+  --gf-form-validation-color: #fda29b;
+  --gf-form-validation-summary-color: #fda29b;
+  --gf-form-validation-radius: 12px;
+  --gf-form-validation-shadow: none;
+
+  color: #fcfcfc;
+}
+
+/* Heading */
+#contact-us .biax-gform .gform_heading {
+  margin-bottom: 24px;
+}
+
+#contact-us .biax-gform .gform_title {
+  margin: 0 0 6px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+#contact-us .biax-gform .gform_required_legend {
+  margin: 0;
+  color: #9aa4b2;
+  font-size: 13px;
+}
+
+/* Field rhythm */
+#contact-us .biax-gform .gform_wrapper.gform-theme .gform_fields {
+  row-gap: 28px;
+}
+
+/* Single-input Name field: the "First" sub-label duplicates the field label */
+#contact-us .biax-gform .ginput_container--name.gf_name_has_1 .gform-field-label--type-sub {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Inputs */
+#contact-us .biax-gform .gform_wrapper.gform-theme .gfield input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]),
+#contact-us .biax-gform .gform_wrapper.gform-theme .gfield textarea {
+  width: 100%;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+#contact-us .biax-gform .gform_wrapper.gform-theme .gfield textarea {
+  height: 130px;
+  min-height: 130px;
+  resize: vertical;
+}
+
+#contact-us .biax-gform .gform_wrapper.gform-theme .gfield input::placeholder,
+#contact-us .biax-gform .gform_wrapper.gform-theme .gfield textarea::placeholder {
+  color: #667085;
+  opacity: 1;
+}
+
+#contact-us .biax-gform .gform_wrapper.gform-theme .gfield_required {
+  color: #ffffff;
+}
+
+/* Keep browser autofill on-palette */
+#contact-us .biax-gform .gform_wrapper.gform-theme input:-webkit-autofill,
+#contact-us .biax-gform .gform_wrapper.gform-theme textarea:-webkit-autofill {
+  -webkit-text-fill-color: #fcfcfc;
+  -webkit-box-shadow: 0 0 0 1000px #0f1217 inset;
+  caret-color: #fcfcfc;
+}
+
+/* Choices (terms agreement) */
+#contact-us .biax-gform .gform_wrapper.gform-theme .gchoice label {
+  color: #ffffff;
+  font-size: 13px;
+}
+
+#contact-us .biax-gform .gform_wrapper.gform-theme .gchoice a,
+#contact-us .biax-gform .gform_wrapper.gform-theme .gfield_description a {
+  color: #864ffe;
+  text-decoration: underline;
+}
+
+/* Textarea character counter */
+#contact-us .biax-gform .gform_wrapper.gform-theme .charleft {
+  color: #667085;
+  font-size: 12px;
+}
+
+/* Field errors */
+#contact-us .biax-gform .gform_wrapper.gform-theme .gfield_validation_message,
+#contact-us .biax-gform .gform_wrapper.gform-theme .validation_message {
+  color: #fda29b;
+  font-size: 13px;
+}
+
+/* Submit */
+#contact-us .biax-gform .gform_wrapper.gform-theme .gform_footer {
+  margin-top: 28px;
+}
+
+#contact-us .biax-gform .gform_wrapper.gform-theme .gform_footer .gform_button {
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+#contact-us .biax-gform .gform_ajax_spinner {
+  margin-left: 12px;
+}
+
+/* Confirmation message (rendered outside the form wrapper after AJAX submit) */
+#contact-us .biax-gform .gform_confirmation_message {
+  padding: 16px 20px;
+  border: 1px solid #2a333e;
+  border-radius: 12px;
+  background: #0f1217;
+  color: #fcfcfc;
+  font-size: 15px;
+}
