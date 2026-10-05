@@ -17,9 +17,16 @@ function biax_enqueue_assets()
     $uri = get_template_directory_uri();
     $vendor_uri = $uri . '/assets/vendor/'; // Assuming you moved the files here
 
+    // Version the theme's own files by last-modified time so edits bypass browser and server caches
+    $dir = get_template_directory();
+    $file_version = function ($path) use ($dir, $version) {
+        $file = $dir . $path;
+        return file_exists($file) ? filemtime($file) : $version;
+    };
+
     // --- Styles ---
-    wp_enqueue_style('main', $uri . '/assets/css/main.css', array(), $version);
-    wp_enqueue_style('wp-style', $uri . '/assets/css/wp.styles.css', array(), $version);
+    wp_enqueue_style('main', $uri . '/assets/css/main.css', array(), $file_version('/assets/css/main.css'));
+    wp_enqueue_style('wp-style', $uri . '/assets/css/wp.styles.css', array(), $file_version('/assets/css/wp.styles.css'));
     wp_enqueue_style('theme-main', get_stylesheet_uri(), array('wp-style'), $version);
 
     $custom_css = "
@@ -53,10 +60,10 @@ function biax_enqueue_assets()
 
     // 4. Main Theme Logic
     // This loads last and requires all previous scripts to be ready
-    wp_enqueue_script('biax-main', $uri . '/assets/js/main.js', array('jquery', 'gsap', 'swiper', 'lenis'), $version, true);
+    wp_enqueue_script('biax-main', $uri . '/assets/js/main.js', array('jquery', 'gsap', 'swiper', 'lenis'), $file_version('/assets/js/main.js'), true);
 
     // Custom JS
-    wp_enqueue_script('custom-js', $uri . '/assets/js/scripts.js', array('jquery'), $version, true);
+    wp_enqueue_script('custom-js', $uri . '/assets/js/scripts.js', array('jquery'), $file_version('/assets/js/scripts.js'), true);
 
     // Gravity Forms - contact form (ID 1) is rendered from section-contact.php with AJAX
     if (function_exists('gravity_form_enqueue_scripts') && is_front_page()) {
