@@ -194,12 +194,17 @@
   margin-left: 12px;
 }
 
-/* Confirmation message (rendered outside the form wrapper after AJAX submit) */
+/* Confirmation message - shown above the form after an AJAX submit (see scripts.js) */
+#contact-us .biax-gform .gform_confirmation_wrapper {
+  margin-bottom: 28px;
+}
+
 #contact-us .biax-gform .gform_confirmation_message {
-  padding: 16px 20px;
-  border: 1px solid #2a333e;
+  padding: 14px 20px;
+  border: 1px solid #12b76a;
   border-radius: 12px;
-  background: #0f1217;
-  color: #fcfcfc;
+  background: rgba(18, 183, 106, 0.1);
+  color: #6ce9a6;
   font-size: 15px;
+  line-height: 1.5;
 }

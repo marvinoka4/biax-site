@@ -56,7 +56,7 @@ function biax_enqueue_assets()
     wp_enqueue_script('biax-main', $uri . '/assets/js/main.js', array('jquery', 'gsap', 'swiper', 'lenis'), $version, true);
 
     // Custom JS
-    wp_enqueue_script('custom-js', $uri . '/assets/js/scripts.js', array('jquery', 'js'), $version, true);
+    wp_enqueue_script('custom-js', $uri . '/assets/js/scripts.js', array('jquery'), $version, true);
 
     // Gravity Forms - contact form (ID 1) is rendered from section-contact.php with AJAX
     if (function_exists('gravity_form_enqueue_scripts') && is_front_page()) {
